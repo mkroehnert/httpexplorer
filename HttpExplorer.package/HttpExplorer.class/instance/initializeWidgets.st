@@ -11,7 +11,7 @@ initializeWidgets
 	sendModel label: 'Send'.
 	followRedirectModel label: 'Follow Redirects';
 		labelClickable: true;
-		state: false.
+		state: httpClient followRedirects.
 	
 	requestSelectModel items: {
 		DropListItem named: 'GET' do: [].
@@ -23,3 +23,5 @@ initializeWidgets
 		DropListItem named: 'TRACE' do: [].
 		DropListItem named: 'CONNECT' do: []
 		}.
+		
+	httpClient method: requestSelectModel selectedItem label asSymbol.
