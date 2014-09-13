@@ -6,7 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"urlModel",
+		"requestSelectModel",
+		"followRedirectModel",
+		"sendModel",
+		"resultModel" ],
 	"name" : "HttpExplorer",
 	"pools" : [
 		 ],

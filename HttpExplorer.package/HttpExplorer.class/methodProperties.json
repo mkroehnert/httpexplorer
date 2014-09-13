@@ -1,5 +1,13 @@
 {
 	"class" : {
-		 },
+		"create" : "ManfredKroehnert 9/13/2014 11:57",
+		"defaultSpec" : "ManfredKroehnert 9/13/2014 11:57" },
 	"instance" : {
-		 } }
+		"followRedirectModel" : "ManfredKroehnert 9/13/2014 12:02",
+		"initializePresenter" : "ManfredKroehnert 9/13/2014 11:59",
+		"initializeWidgets" : "ManfredKroehnert 9/13/2014 11:58",
+		"requestSelectModel" : "ManfredKroehnert 9/13/2014 12:02",
+		"resultModel" : "ManfredKroehnert 9/13/2014 12:02",
+		"sendModel" : "ManfredKroehnert 9/13/2014 12:02",
+		"title" : "ManfredKroehnert 9/13/2014 12:00",
+		"urlModel" : "ManfredKroehnert 9/13/2014 12:01" } }
