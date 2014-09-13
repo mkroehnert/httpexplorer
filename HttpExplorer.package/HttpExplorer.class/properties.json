@@ -1,0 +1,14 @@
+{
+	"category" : "HttpExplorer",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HttpExplorer",
+	"pools" : [
+		 ],
+	"super" : "ComposableModel",
+	"type" : "normal" }
