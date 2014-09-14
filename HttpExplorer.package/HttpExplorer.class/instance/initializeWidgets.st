@@ -12,16 +12,15 @@ initializeWidgets
 	followRedirectModel label: 'Follow Redirects';
 		labelClickable: true;
 		state: httpClient followRedirects.
-	
-	requestSelectModel items: {
-		DropListItem named: 'GET' do: [].
-		DropListItem named: 'POST' do: [].
-		DropListItem named: 'PUT' do: [].
-		DropListItem named: 'DELETE' do: [].
-		DropListItem named: 'HEAD' do: [].
-		DropListItem named: 'OPTIONS' do: [].
-		DropListItem named: 'TRACE' do: [].
-		DropListItem named: 'CONNECT' do: []
-		}.
+
+	requestSelectModel
+		addItemLabeled: 'GET' do: [];
+		addItemLabeled: 'POST' do: [];
+		addItemLabeled: 'PUT' do: [];
+		addItemLabeled: 'DELETE' do: [];
+		addItemLabeled: 'HEAD' do: [];
+		addItemLabeled: 'OPTIONS' do: [];
+		addItemLabeled: 'TRACE' do: [];
+		addItemLabeled: 'CONNECT' do: [].
 		
-	httpClient method: requestSelectModel selectedItem label asSymbol.
+	httpClient method: requestSelectModel selectedItem asSymbol.
