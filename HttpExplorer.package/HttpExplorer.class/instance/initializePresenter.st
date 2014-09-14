@@ -1,10 +1,7 @@
 initialization
 initializePresenter
-
-	sendModel action: [
-		resultModel text: ''.
-		httpClient url: urlModel pendingText asString; execute.
-		resultModel text: (String streamContents: [ :s | httpClient response writeOn: s ]). ].
+	sendModel action: [ self performRequest ].
+	urlModel acceptBlock: [ self performRequest  ].
 	followRedirectModel whenActivatedDo: [ httpClient followRedirects: true ].
 	followRedirectModel whenDesactivatedDo: [ httpClient followRedirects: false ].
-	requestSelectModel whenSelectedItemChanged: [ :item | httpClient method: item asSymbol ].
+	requestSelectModel whenSelectedItemChanged: [ :item | httpClient method: item asSymbol ]

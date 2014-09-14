@@ -7,7 +7,9 @@ initializeWidgets
 		followRedirectModel CheckBoxModel
 		sendModel ButtonModel
 		resultModel TextModel).
-	urlModel ghostText: 'http(s)://'.
+	urlModel ghostText: 'http(s)://';
+		acceptOnCR: true.
+
 	sendModel label: 'Send'.
 	followRedirectModel label: 'Follow Redirects';
 		labelClickable: true;
