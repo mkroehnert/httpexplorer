@@ -26,3 +26,5 @@ initializeWidgets
 		addItemLabeled: 'CONNECT' do: [].
 		
 	httpClient method: requestSelectModel selectedItem asSymbol.
+	
+	self initializeFocusOrder.
