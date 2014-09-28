@@ -6,7 +6,9 @@ initializeWidgets
 		requestSelectModel DropListModel
 		followRedirectModel CheckBoxModel
 		sendModel ButtonModel
-		resultModel TextModel).
+		tabManager TabManagerModel
+		requestModel TextModel
+		responseModel TextModel).
 	urlModel ghostText: 'http(s)://';
 		acceptOnCR: true.
 
@@ -26,5 +28,9 @@ initializeWidgets
 		addItemLabeled: 'CONNECT' do: [].
 		
 	httpClient method: requestSelectModel selectedItem asSymbol.
+	
+	tabManager
+		addTab: self requestTab;
+		addTab: self responseTab.
 	
 	self initializeFocusOrder.

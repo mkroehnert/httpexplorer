@@ -1,16 +1,20 @@
 {
 	"class" : {
 		"create" : "ManfredKroehnert 9/13/2014 11:57",
-		"defaultSpec" : "ManfredKroehnert 9/13/2014 11:57" },
+		"defaultSpec" : "ManfredKroehnert 9/28/2014 18:03" },
 	"instance" : {
 		"followRedirectModel" : "ManfredKroehnert 9/13/2014 12:02",
 		"initialize" : "ManfredKroehnert 9/13/2014 12:07",
 		"initializeFocusOrder" : "ManfredKroehnert 9/14/2014 10:59",
 		"initializePresenter" : "ManfredKroehnert 9/14/2014 10:55",
-		"initializeWidgets" : "ManfredKroehnert 9/14/2014 10:59",
-		"performRequest" : "ManfredKroehnert 9/14/2014 10:55",
+		"initializeWidgets" : "ManfredKroehnert 9/28/2014 18:15",
+		"performRequest" : "ManfredKroehnert 9/28/2014 18:11",
+		"requestModel" : "ManfredKroehnert 9/28/2014 18:10",
 		"requestSelectModel" : "ManfredKroehnert 9/13/2014 12:02",
-		"resultModel" : "ManfredKroehnert 9/13/2014 12:02",
+		"requestTab" : "ManfredKroehnert 9/28/2014 18:07",
+		"responseModel" : "ManfredKroehnert 9/28/2014 18:08",
+		"responseTab" : "ManfredKroehnert 9/28/2014 18:11",
 		"sendModel" : "ManfredKroehnert 9/13/2014 12:02",
+		"tabManager" : "ManfredKroehnert 9/28/2014 18:02",
 		"title" : "ManfredKroehnert 9/13/2014 12:00",
 		"urlModel" : "ManfredKroehnert 9/13/2014 12:01" } }

@@ -10,6 +10,6 @@ defaultSpec
 				add: #requestSelectModel;
 				add: #followRedirectModel;
 				add: #sendModel] height: 26;
-			add: #resultModel.
+			add: #tabManager.
 		];
 		yourself.

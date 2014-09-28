@@ -1,0 +1,4 @@
+accessing
+responseModel
+
+	^ responseModel

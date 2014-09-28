@@ -10,7 +10,9 @@
 		"requestSelectModel",
 		"followRedirectModel",
 		"sendModel",
-		"resultModel",
+		"tabManager",
+		"requestModel",
+		"responseModel",
 		"httpClient" ],
 	"name" : "HttpExplorer",
 	"pools" : [
