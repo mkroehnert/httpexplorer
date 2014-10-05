@@ -1,4 +1,4 @@
-action
+private
 expandedLayout
 	^ SpecLayout composed
 		newColumn: [ :mainColumn | mainColumn

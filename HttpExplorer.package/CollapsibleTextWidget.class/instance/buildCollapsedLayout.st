@@ -1,4 +1,4 @@
-action
+private
 buildCollapsedLayout
 	self widgets removeAll.
 

@@ -1,11 +1,7 @@
 initialization
 initializePresenter
-
-	self buttonModel action: [
-		self isExpanded
-			ifTrue: [
-				self buildCollapsedLayout.
-				whenCollapsedBlock value]
-			ifFalse: [ 
-				self buildExpandedLayout.
-				whenExpandedBlock value]].
+	self buttonModel
+		action: [ 
+			self isExpanded
+				ifTrue: [ self collapse ]
+				ifFalse: [ self expand ] ]

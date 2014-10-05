@@ -1,4 +1,4 @@
-action
+private
 collapsedLayout
 	^ SpecLayout composed
 		newColumn: [ :mainColumn | mainColumn

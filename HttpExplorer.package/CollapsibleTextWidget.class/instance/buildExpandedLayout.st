@@ -1,4 +1,4 @@
-action
+private
 buildExpandedLayout
 	self widgets removeAll.
 
