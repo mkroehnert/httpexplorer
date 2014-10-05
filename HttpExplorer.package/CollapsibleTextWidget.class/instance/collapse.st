@@ -1,4 +1,5 @@
 action
 collapse
-	self buildCollapsedLayout.
-	^ whenCollapsedBlock value
+	self isExpanded ifTrue: [
+		self buildCollapsedLayout.
+		whenCollapsedBlock value]

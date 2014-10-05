@@ -1,4 +1,5 @@
 action
 expand
-	self buildExpandedLayout.
-	^ whenExpandedBlock value
+	self isExpanded ifFalse: [
+		self buildExpandedLayout.
+		whenExpandedBlock value ]
