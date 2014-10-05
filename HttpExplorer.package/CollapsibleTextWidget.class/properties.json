@@ -1,0 +1,18 @@
+{
+	"category" : "HttpExplorer",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ManfredKroehnert 10/5/2014 23:36",
+	"instvars" : [
+		"isExpanded",
+		"expandedText",
+		"collapsedText",
+		"whenCollapsedBlock",
+		"whenExpandedBlock" ],
+	"name" : "CollapsibleTextWidget",
+	"pools" : [
+		 ],
+	"super" : "DynamicComposableModel",
+	"type" : "normal" }

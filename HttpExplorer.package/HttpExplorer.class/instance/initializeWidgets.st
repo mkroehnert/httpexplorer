@@ -6,6 +6,7 @@ initializeWidgets
 		requestSelectModel DropListModel
 		followRedirectModel CheckBoxModel
 		sendModel ButtonModel
+		bodyModel CollapsibleTextWidget
 		tabManager TabManagerModel
 		requestModel TextModel
 		responseModel TextModel).
@@ -26,11 +27,15 @@ initializeWidgets
 		addItemLabeled: 'OPTIONS' do: [];
 		addItemLabeled: 'TRACE' do: [];
 		addItemLabeled: 'CONNECT' do: [].
-		
-	httpClient method: requestSelectModel selectedItem asSymbol.
+	
+	bodyModel
+		collapsedText: 'Add Body';
+		expandedText: 'Remove Body'.
 	
 	tabManager
 		addTab: self requestTab;
 		addTab: self responseTab.
+	
+	httpClient method: requestSelectModel selectedItem asSymbol.
 	
 	self initializeFocusOrder.

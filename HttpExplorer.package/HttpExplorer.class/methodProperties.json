@@ -1,13 +1,14 @@
 {
 	"class" : {
 		"create" : "ManfredKroehnert 9/13/2014 11:57",
-		"defaultSpec" : "ManfredKroehnert 9/28/2014 18:03" },
+		"defaultSpec" : "ManfredKroehnert 10/3/2014 12:42" },
 	"instance" : {
+		"bodyModel" : "ManfredKroehnert 10/3/2014 13:13",
 		"followRedirectModel" : "ManfredKroehnert 9/13/2014 12:02",
 		"initialize" : "ManfredKroehnert 9/13/2014 12:07",
 		"initializeFocusOrder" : "ManfredKroehnert 9/14/2014 10:59",
 		"initializePresenter" : "ManfredKroehnert 9/14/2014 10:55",
-		"initializeWidgets" : "ManfredKroehnert 9/28/2014 18:15",
+		"initializeWidgets" : "ManfredKroehnert 10/5/2014 23:25",
 		"performRequest" : "ManfredKroehnert 9/28/2014 18:11",
 		"requestModel" : "ManfredKroehnert 9/28/2014 18:10",
 		"requestSelectModel" : "ManfredKroehnert 9/13/2014 12:02",

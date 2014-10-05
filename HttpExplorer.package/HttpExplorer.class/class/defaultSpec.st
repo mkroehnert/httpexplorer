@@ -1,4 +1,4 @@
-as yet unclassified
+specs
 defaultSpec
 
 	<spec>
@@ -10,6 +10,7 @@ defaultSpec
 				add: #requestSelectModel;
 				add: #followRedirectModel;
 				add: #sendModel] height: 26;
+			add: #bodyModel;
 			add: #tabManager.
 		];
 		yourself.
