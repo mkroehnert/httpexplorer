@@ -1,5 +1,7 @@
 accessing
 text
 	^ self isExpanded
-		ifTrue: [self textModel text]
+		ifTrue: [
+			self textModel accept.
+			self textModel text]
 		ifFalse: [ '' ]
