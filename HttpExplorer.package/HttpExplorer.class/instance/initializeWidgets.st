@@ -6,7 +6,7 @@ initializeWidgets
 		requestSelectModel DropListModel
 		followRedirectModel CheckBoxModel
 		sendModel ButtonModel
-		bodyModel CollapsibleTextWidget
+		bodyModel CollapsibleTextModel
 		tabManager TabManagerModel
 		requestModel TextModel
 		responseModel TextModel).
@@ -29,8 +29,8 @@ initializeWidgets
 		addItemLabeled: 'CONNECT' do: [].
 	
 	bodyModel
-		collapsedText: 'Add Body';
-		expandedText: 'Remove Body'.
+		collapsedText: 'Add Request Body';
+		expandedText: 'Remove Request Body'.
 	
 	tabManager
 		addTab: self requestTab;
