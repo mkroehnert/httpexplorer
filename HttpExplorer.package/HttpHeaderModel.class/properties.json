@@ -1,0 +1,14 @@
+{
+	"category" : "HttpExplorer",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ManfredKroehnert 10/8/2014 00:08",
+	"instvars" : [
+		 ],
+	"name" : "HttpHeaderModel",
+	"pools" : [
+		 ],
+	"super" : "DynamicComposableModel",
+	"type" : "normal" }

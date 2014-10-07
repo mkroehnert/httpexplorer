@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"defaultSpec" : "ManfredKroehnert 10/6/2014 23:21" },
+	"instance" : {
+		"addHeaderRow" : "ManfredKroehnert 10/7/2014 00:20",
+		"buildCollapsedLayout" : "ManfredKroehnert 10/6/2014 23:04",
+		"buildExpandedLayout" : "ManfredKroehnert 10/6/2014 23:04",
+		"collapsedLayout" : "ManfredKroehnert 10/6/2014 23:04",
+		"data" : "ManfredKroehnert 10/8/2014 00:06",
+		"deleteHeaderButtonModel:" : "ManfredKroehnert 10/8/2014 00:02",
+		"headerNameInputModel:" : "ManfredKroehnert 10/8/2014 00:00",
+		"headerValueInputModel:" : "ManfredKroehnert 10/8/2014 00:01",
+		"initializeFocusOrder" : "ManfredKroehnert 10/6/2014 23:25",
+		"initializePresenter" : "ManfredKroehnert 10/8/2014 00:07",
+		"initializeWidgets" : "ManfredKroehnert 10/8/2014 00:04" } }
