@@ -6,6 +6,7 @@ initializeWidgets
 		requestSelectModel DropListModel
 		followRedirectModel CheckBoxModel
 		sendModel ButtonModel
+		headerModel HttpHeaderModel
 		bodyModel CollapsibleTextModel
 		tabManager TabManagerModel
 		requestModel TextModel

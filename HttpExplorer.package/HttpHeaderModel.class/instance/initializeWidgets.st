@@ -4,7 +4,7 @@ initializeWidgets
 		buttonModel ButtonModel
 		headerTableModel TreeModel).
 
-	self buttonModel label: '+'.
+	self buttonModel label: 'Add Header Field'.
 
 	"http://forum.world.st/Spec-Grid-Table-Layout-td4719752.html"
 	self headerTableModel roots: {}.

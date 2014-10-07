@@ -10,6 +10,7 @@
 		"requestSelectModel",
 		"followRedirectModel",
 		"sendModel",
+		"headerModel",
 		"bodyModel",
 		"tabManager",
 		"requestModel",
