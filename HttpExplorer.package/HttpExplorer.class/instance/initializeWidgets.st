@@ -11,6 +11,7 @@ initializeWidgets
 		tabManager TabManagerModel
 		requestModel TextModel
 		responseModel TextModel).
+
 	urlModel ghostText: 'http(s)://';
 		acceptOnCR: true.
 
