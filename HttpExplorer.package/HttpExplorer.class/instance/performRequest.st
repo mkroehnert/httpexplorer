@@ -8,4 +8,7 @@ performRequest
 		headerAddAll: headerModel data;
 		execute.
 	requestModel text: (String streamContents: [ :s | httpClient request writeOn: s ]).
-	responseModel text: (String streamContents: [ :s | httpClient response writeOn: s ]).
+	responseModel text:
+		(String streamContents: [ :s |
+			httpClient response headers removeKey: 'Transfer-Encoding'.
+			httpClient response writeOn: s ]).
