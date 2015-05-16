@@ -37,3 +37,23 @@ Gofer new
     configurationOf: 'GitFileTree';
     loadStable.
 ```
+
+3. Load HttpExplorer code (works only if you are a collaborator of the HttpExplorer repository)
+  
+  * Open Monticello browser
+  * Select `+Repository`
+  * select `Remote git repository` and enter
+  ```
+MCFileTreeGitRemoteRepository
+  location: 'git@github.com:mkroehnert/httpexplorer.git'
+  name: 'HttpExplorer'
+  subdirectory: ''
+  branch: ''
+```
+  * Select the `HttpExplorer` package in the left pane of the Monticello browser and load it
+
+
+License
+----
+
+HttpExplorer is released under the MIT license. All contributions made for inclusion are considered to be under MIT.
